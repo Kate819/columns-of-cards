@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.library {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.anderon {
+  background-color: #e2e2e2;
+}
+
+.knights {
+  background-color: #ccc;
+}
+
+.dragon {
+  background-color: #aaa;
+}
+
+.ships {
+  background-color: #999;
+}
+
+.img {
+  width: 100px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+i {
+  font-size: .875rem;
+}
+
+.btn {
+  display: block;
+  padding: .75rem;
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: .875rem;
+}
+
+div {
+  padding: 1.5rem;
+}
+
+.btn:hover {
+  background-color: black;
+}
